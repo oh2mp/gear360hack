@@ -2,10 +2,10 @@
 
 ## Preface
 
-In the 2010s Samsung made many nice camera models, for example 360° camera that I have, the Gear360 SM-R210.
+In the 2010s Samsung made many nice camera models, eg. 360° camera that I have, the Gear360 SM-R210.
 Then around 2020 they made a business decision and stopped further development. Firmware and phone software updates weren't developed or published anymore.
-Eg. the app in Google Play doesn't work in newer Android versions anymore. They also shut down their site www<area>.samsungimaging.com, where eg. 
-the firmware updates were available.
+Eg. the app in Google Play doesn't work in newer Android versions anymore, although it worked in Samsung phones only. 
+They also shut down their site www<area>.samsungimaging.com, where eg. the firmware updates were available.
 
 Of course the the camera works standalone, but by default it generates dual fisheye images to the memory card. This is not what you want, 
 because eg. Google Maps and social platforms want equirectangular projection. There are some software that can convert the photos,
@@ -31,3 +31,11 @@ files on the memory card and they can be used for launching any scripts.
 More info can be found eg. from [ottokiksmaler's](https://github.com/ottokiksmaler/gear360_modding) and [ultramango's](https://github.com/ultramango/gear360reveng)
 github.
 
+## Requirements
+
+This hack has been tested with firmware R210GLU0ARB2 only. At least that one has Street View mode and the internal stitching. If you need to upgrade the
+firmware, you can download it from [XDA forums](https://xdaforums.com/t/mod-port-samsung-gear-360-manager-for-all-devices-updated-10-apr-24-v1-5-00-1-4.3400383/page-93) 
+and use [updater by Kieron Quinn](https://github.com/KieronQuinn/Gear360_OSS/). Use the firmware file `R210GLU0ARB2_180201_1739_REV00_user.bin` which is probably the
+last firmware Samsung published.
+
+Download the `gear360hack.zip` and read the [INSTALL_AND_USAGE.md](INSTALL_AND_USAGE.md) 
