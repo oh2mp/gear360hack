@@ -30,3 +30,13 @@ LD_LIBRARY_PATH=/opt/usr/lib PERL5LIB=/opt/usr/lib/perl /opt/usr/bin/httpd -p 80
 The port is 8000 because the internal OSC API has reserved the port 80 and we can't use it.
 
 Then read [USAGE.md](USAGE.md) and enjoy.
+
+# FTP
+
+The photos can be downloaded from the camera with anonymous FTP (if enabled). Any username works.
+
+# Telnet
+
+If you want to examine the internals, you can telnet to the camera (if enabled). Username is `root` without password.
+
+__WARNING!__ It looks that the root partition is remountable to rw, but don't do it. It is actually compressed filesystem and if you remount it and make any changes, it may brick your camera! Playing with internal storage that is mounted on /opt and /opt/usr is most likely safe. Memory card is mounted to /mnt/mmc but there are also symlinks /sdcard and /opt/storage
