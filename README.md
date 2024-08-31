@@ -37,6 +37,8 @@ last firmware Samsung published.
 
 Download the `gear360hack.zip` and read the [INSTALL.md](INSTALL.md) and [USAGE.md](USAGE.md) 
 
+__NOTE__: This hack has been tested with Google Chrome only on Android and Linux computer. I have no idea if it works with other browsers or not.
+
 ## Internals
 
 SM-R210 has an ARMv7 CPU and it is running Samsung's version of [Tizen Linux](https://www.tizen.org/). It has 2GB internal storage where
