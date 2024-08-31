@@ -38,4 +38,4 @@ firmware, you can download it from [XDA forums](https://xdaforums.com/t/mod-port
 and use [updater by Kieron Quinn](https://github.com/KieronQuinn/Gear360_OSS/). Use the firmware file `R210GLU0ARB2_180201_1739_REV00_user.bin` which is probably the
 last firmware Samsung published.
 
-Download the `gear360hack.zip` and read the [INSTALL_AND_USAGE.md](INSTALL_AND_USAGE.md) 
+Download the `gear360hack.zip` and read the [INSTALL.md](INSTALL.md) and [USAGE.md](USAGE.md) 
