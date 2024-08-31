@@ -12,6 +12,8 @@ because eg. Google Maps and social platforms want equirectangular projection. Th
 but none of them look perfect and cause extra work afterwards on converting images. 
 When there was the working phone app, it could stitch the image perfectly to equirectangular projection with its proprietary algorithm.
 
+![Gear360](i/gear360.jpg)
+
 The camera has Android, iOS and Street View modes. Google has abandoned that phone app and integrated the Street View to the Maps app which
 doesn't work anymore with the camera. But that mode is the useful one, because it uses [OSC](https://developers.google.com/streetview/open-spherical-camera).
 In that mode the camera stitches the photo to equirectangular projection internally.
@@ -27,6 +29,8 @@ I don't really get the idea of 360° videos except eg. parachute jumps that I do
 SM-R210 has an ARMv7 CPU and it is running Samsung's version of [Tizen Linux](https://www.tizen.org/). It has 2GB internal storage where
 settings etc. are stored. That storage can be used for modificating the camera. There is a method for firmware upgrade that uses files `info.tg` and `nx_cs.adj`
 files on the memory card and they can be used for launching any scripts.
+
+![term](i/term_gear360.jpg) 
 
 More info can be found eg. from [ottokiksmaler's](https://github.com/ottokiksmaler/gear360_modding) and [ultramango's](https://github.com/ultramango/gear360reveng)
 github.
