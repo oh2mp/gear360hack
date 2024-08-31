@@ -30,6 +30,8 @@ Open `chrome://flags` and search the setting "__Insecure origins treated as secu
 Set it to: `http://192.168.43.1,http://192.168.43.1:8000`<br />
 You must restart the browser and when navigating to the camera URL, allow it to get location.
 
+![ss3](i/ss3.jpg)
+
 ### Other browsers?
 
 I don't know and just at the moment I am too lazy to google. If you know, please tell me.
