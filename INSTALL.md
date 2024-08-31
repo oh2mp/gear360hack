@@ -1,15 +1,16 @@
 # Installation
 
 1. Download `gear360hack.zip` from this repository.
-2. Format the memory card in camera.
+2. Format the memory card in camera. If you format it with a computer, choose FAT32 (vfat) and make directory DCIM onto the card.
 3. Unzip the zip to the root directory of the memory card
 4. Insert the card into the camera and power it up
 5. Wait until it flashes the leds and shuts down
 
-After that you can remove everything from the memory card, but you _must_ leave the `DCIM` directory and files `info.tg` and `nx_cs.adj` there.
 Then you are ready to go.
 
-By default this hack starts httpd, ftp and telnet daemons in the camera. If you want to leave ftp and/or telnet away, then edit `startup.sh`first before installing.
+Note that you _must_ have files `info.tg` and `nx_cs.adj` on the card. Otherwise the hack doesn't start. If you format the card later or use a different card, remember to add those files. There is the `bootfiles.zip` included in this repository, even the installer puts right ones to the card.
+
+By default this hack starts httpd, ftp and telnet daemons in the camera. If you want to leave ftp and/or telnet away, then edit `startup.sh` first before installing.
 
 Default startup.sh
 ```
