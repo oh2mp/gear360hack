@@ -10,7 +10,9 @@ Then you are ready to go.
 
 Note that you _must_ have files `info.tg` and `nx_cs.adj` on the card. Otherwise the hack doesn't start. If you format the card later or use a different card, remember to add those files. There is the `bootfiles.zip` included in this repository, even the installer puts right ones to the card.
 
-By default this hack starts httpd, ftp and telnet daemons in the camera. If you want to leave ftp and/or telnet away, then edit `startup.sh` first before installing.
+By default this hack starts httpd, ftpd and telnetd (busybox versions) in the camera. 
+If you want to leave eg. ftp and/or telnet away, then edit `startup.sh` first before installing.
+Don't remove httpd.
 
 Default startup.sh
 ```
