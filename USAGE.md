@@ -34,4 +34,10 @@ You must restart the browser and when navigating to the camera URL, allow it to 
 
 ### Other browsers?
 
-I don't know and just at the moment I am too lazy to google. If you know, please tell me.
+I don't know and just at the moment I am too lazy to google. If you know, please let me know it too.
+
+### Semi-manual method
+
+Another method would be to take a normal still photo at the same location and copy the coordinates from it later. It can be done eg. with [ExifTool](https://exiftool.org/). 
+
+__Note that if you want to upload your photospheres to Google Maps, the GPS coordinates _must_ exist in EXIF.__
