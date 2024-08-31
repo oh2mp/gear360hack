@@ -20,7 +20,7 @@ When there was the working phone app, it could stitch the image perfectly to equ
 
 The camera has Android, iOS and Street View modes. Google has abandoned the dedicated Street View phone app and integrated the Street View to the Maps app which unsurprisingly doesn't work with the camera. But that mode is the useful one, because it uses the internal stitcher that creates equirectangular images. The only requirement for to get that mode working is that a phone or other device is connected to the camera WiFi in that mode.
 
-The mode has [OSC](https://developers.google.com/streetview/open-spherical-camera) REST API, but it is not used in this hack and Samsung hasn't even implemented all OSC features.
+The mode has [OSC](https://developers.google.com/streetview/open-spherical-camera) REST API, but it is not used in this hack and it looks that Samsung hasn't even implemented all OSC features.
 
 ### What? Why?
 
