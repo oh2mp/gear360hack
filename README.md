@@ -6,13 +6,17 @@ In the 2010s Samsung made many nice camera models, eg. 360° camera that I have,
 Then around 2020 they made a business decision and stopped further development. Firmware and phone software updates weren't developed or published anymore.
 Eg. the app in Google Play doesn't work in newer Android versions anymore, although it worked in Samsung phones only. 
 They also shut down their site www<area>.samsungimaging.com, where eg. the firmware updates were available.
+![Gear360](i/gear360.jpg) 
 
 Of course the the camera works standalone, but by default it generates dual fisheye images to the memory card. This is not what you want, 
 because eg. Google Maps and social platforms want equirectangular projection. There are some software that can convert the photos,
 but none of them look perfect and cause extra work afterwards on converting images. 
 When there was the working phone app, it could stitch the image perfectly to equirectangular projection with its proprietary algorithm.
 
-![Gear360](i/gear360.jpg)
+| Double Fisheye | Equirectangular |
+| -------------- | --------------- |
+| You don't want this | This is what you want |
+| ![fisheye](i/s_360_0312.jpg) | ![equirect](i/s_sam_0312.jpg) |
 
 The camera has Android, iOS and Street View modes. Google has abandoned that phone app and integrated the Street View to the Maps app which
 doesn't work anymore with the camera. But that mode is the useful one, because it uses [OSC](https://developers.google.com/streetview/open-spherical-camera).
@@ -30,7 +34,7 @@ SM-R210 has an ARMv7 CPU and it is running Samsung's version of [Tizen Linux](ht
 settings etc. are stored. That storage can be used for modificating the camera. There is a method for firmware upgrade that uses files `info.tg` and `nx_cs.adj`
 files on the memory card and they can be used for launching any scripts.
 
-![term](i/term_gear360.jpg) 
+![term](i/term_gear360.jpg)
 
 More info can be found eg. from [ottokiksmaler's](https://github.com/ottokiksmaler/gear360_modding) and [ultramango's](https://github.com/ultramango/gear360reveng)
 github.
